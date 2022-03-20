@@ -1,0 +1,386 @@
+body {
+  width:1440px;
+}
+body, h1, h2, p {
+    margin:0;
+    padding:0;
+    font-family: 'Vollkorn', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+header {
+    padding:18px 0px 11px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    margin-left:250px;
+    margin-right: 18px;
+}
+.logo-name {
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #404040;
+    margin-right: 461px;
+}
+.menu ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.menu li {
+    margin-right: 34px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+  }
+li > a {
+    text-decoration: none;
+    color: #404040;
+    text-transform: uppercase;
+  }
+
+
+
+
+.sec-1 > div {
+    background: url("../image/sea.png") left top no-repeat;
+    padding-top:105px;
+    padding-bottom: 75px;
+  }
+.sec-1 > div > h1 {
+   width:672px;
+   font-family: "Montserrat", sans-serif;
+   font-size: 44px; 
+   line-height: 55px;
+   text-align: center;
+   color:#FFFFFF;
+   text-transform: uppercase;
+   margin-bottom: 28px;
+   margin-left:384px;
+  }  
+  .line {
+    margin-left:680px;
+  }
+  .sec-1 > div > h2 {
+    font-size: 15px;
+    color:#FFFFFF;
+    margin-left: 608px;
+    margin-top:25px;
+  }
+
+
+
+.sec-2 {
+    background-color: #FEFEC9;
+    padding:60px 0px 79px 250px;
+    color:#47474F;
+}
+.about {
+  width:940px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom:52px;
+}
+.logIn > a {
+    width:159px;
+    border: 1px solid black;
+    padding: 13px 35px 20px 35px;
+    text-align: center;
+    margin-left:390px;
+    font-size: 16px;
+    text-decoration: none;
+    color:#47474F;
+  }
+
+ 
+  .sec-3 {
+    padding-top:79px;
+    padding-bottom:74px;
+  }
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size:23px;
+    text-transform: uppercase;
+    color:#333333;
+    text-align: center;
+    margin-bottom: 28px;
+  }
+ 
+.square-wrapper {
+  display: flex;
+  padding:0 250px;
+  margin-top:43px;
+}
+.squareCard {
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:20px;
+}
+.card:nth-child(3){
+  margin-right:0;
+}
+.square {
+  width:300px;
+  height:219px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:38px;
+}
+.titleH2 {
+  color:#333333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.squareTitle {
+  margin: 0;
+  margin-bottom:20px;
+}
+.description > p {
+  color:#333333;
+  font-size:15px;
+  text-align: center;
+  text-transform: none;
+}
+
+
+
+.sec-4 {
+  background-color: #F5F5F5;
+  padding:79px 0 89px 0;
+
+}
+#cardsWrapper {
+  margin:43px 250px 0 250px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.cards {
+  width:300px;
+  background-color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+.cards:nth-child(3n+3) {
+  margin-right:0;
+}
+.cards:nth-last-child(-n+3) {
+  margin-bottom:0;
+}
+.cardName {
+  margin-top:19px;
+  margin-bottom:4px;
+}
+.cardDescription {
+  margin:0;
+  margin-bottom:21px;
+  font-size:14px;
+  font-weight: 400;
+}
+
+
+.sec-5 {
+  padding-top:79px;
+  padding-bottom: 99px;
+}
+
+#teamWrapper {
+  margin-top:43px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.member:last-child {
+  margin-right: 0;
+}
+.memberName {
+  margin-top:20px;
+  margin-bottom:6px;
+}
+.position {
+  margin-bottom:29px;
+  font-size:14px;
+  font-weight: 400;
+}
+.network {
+  display: flex;
+}
+.network > a {
+  margin-right:6px;
+}
+.wrapp {
+  width:29px;
+  height:14px;
+  background-color:#F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.sec-6 {
+  padding-top: 69px;
+  padding-bottom: 98px;
+  background-color: #F5F5F5;
+}
+.sec-6 > img {
+  margin-left:689px;
+  margin-bottom:65px;
+}
+.quoteWrapper {
+  display: flex;
+  margin-left:328px;
+}
+.vertical {
+  margin:0 60px;
+}
+.blockquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:338px;
+}
+.quote {
+  height:99px;
+  font-size:26px;
+  font-weight: 400;
+  color:#333333;
+  text-align: center;
+  margin-bottom: 24px;
+  
+}
+.autor {
+  font-family: "Montserrat", sans-serif;
+  font-size:14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color:#ABABAB;
+  text-align: center;
+  margin-top:10px;
+}
+
+.sec-7 {
+  background: url("../image/green.png") no-repeat;
+  padding-top: 79px;
+  padding-bottom: 75px;
+}
+.getInWrapper {
+  margin-top:56px;
+  margin-left:313px;
+  display:flex;
+}
+.meet {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location {
+  margin-right: 136px;
+}
+.letter {
+  margin-right: 149px;
+}
+.meet:last-child, .meet:nth-child(2) {
+  padding-top:7px;
+}
+
+.location > h2 {
+margin-top:26px;
+margin-bottom: 20px;
+}
+.letter > h2 {
+  margin-top:34px;
+  margin-bottom: 20px;
+}
+.socialMedia > h2 {
+  margin-top:28px;
+  margin-bottom: 19px;
+}
+.meet > a  {
+  text-decoration: none;
+  text-align: center;
+  color:#212121;
+}
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.linkWrapper > a {
+  color:#212121;
+  text-decoration: none;
+}
+.media {
+  margin-right: 9px;
+}
+
+footer {
+    padding-top: 69px;
+    padding-bottom: 75px;
+    background-color: #000000;
+}
+
+form {
+  width:564px;
+  display:flex;
+  flex-direction: column;
+  margin-left: 439px;
+}
+input,textarea{
+  font-family: 'Vollkorn', sans-serif;
+  font-size:17px;
+  font-weight: 400;
+  font-style: italic;
+  padding:18px 20px;
+  border: none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color:white;
+}
+  input:nth-child(even), textarea {
+    background-color: rgb(27, 27, 27);
+  }
+  input:nth-child(odd) {
+    background-color: rgb(24, 24, 24);
+  }
+
+  input[type="submit"] {
+    width:210px;
+    color:#8BCAC3;
+    background-color: #000000;
+    border:1px solid #8BCAC3; 
+    margin-top:22px;
+    margin-left: 177px;
+  }
+
+textarea {
+  resize: none;
+}
+
+.logo-2 {
+  margin:37px 699px 14px 698px;
+
+}
+footer > h2 {
+  color:rgba(255, 255, 255, 0.4);
+  font-size:15px;
+  margin-left:525px;
+}
